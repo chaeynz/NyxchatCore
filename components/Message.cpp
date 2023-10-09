@@ -1,6 +1,6 @@
 // Message.cpp
 
-#include <NyxchatCore/components/Message.hpp>
+#include <components/Message.hpp>
 
 unsigned long long Message::getMessageId() {
 	return messageId;

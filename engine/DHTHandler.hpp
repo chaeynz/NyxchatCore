@@ -7,8 +7,8 @@
 #include <random>
 #include <boost/asio.hpp>
 
-#include "NetworkEngine.hpp"
-#include "ErrorHandler.hpp"
+#include <engine/NetworkEngine.hpp>
+#include <engine/ErrorHandler.hpp>
 
 class DHTHandler
 {

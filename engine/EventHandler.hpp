@@ -7,7 +7,7 @@
 #include <functional>
 #include <memory>
 
-#include "include/engine/ErrorHandler.hpp"
+#include <engine/ErrorHandler.hpp>
 
 template <typename... Args>
 class EventHandler {

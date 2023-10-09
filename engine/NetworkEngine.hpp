@@ -7,10 +7,10 @@
 #include <boost/asio.hpp>
 
 
-#include "ConnectionHandler.hpp"
-#include "DHTHandler.hpp"
-#include "UserHandler.hpp"
-#include "Serializer.hpp"
+#include <engine/NetworkEngine.hpp>
+#include <engine/DHTHandler.hpp>
+#include <engine/UserHandler.hpp>
+#include <engine/Serializer.hpp>
 
 
 class NetworkEngine

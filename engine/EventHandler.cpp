@@ -1,6 +1,6 @@
 // EventHandler.cpp
 
-#include "include/engine/EventHandler.hpp"
+#include <engine/EventHandler.hpp>
 
 inline void EventHandler::registerCallback(const Event& onEvent, const Callback& eventCallback) {
 	if (eventSubscribers.find(onEvent) != eventSubscribers.end()) {

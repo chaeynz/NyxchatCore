@@ -1,6 +1,6 @@
 // NetworkEngine.cpp
 
-#include "include/engine/NetworkEngine.hpp"
+#include <engine/NetworkEngine.hpp>
 
 auto NetworkEngine::userFuture = userPromise.get_future();
 

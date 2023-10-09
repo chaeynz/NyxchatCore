@@ -5,7 +5,7 @@
 #include <string>
 #include <regex>
 #include <boost/asio.hpp>
-#include "include/components/Message.hpp"
+#include <components/Message.hpp>
 
 #define serializeMessage(a); boost::asio::buffer(a);
 
